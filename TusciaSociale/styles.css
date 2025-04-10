@@ -1,0 +1,18 @@
+/* Custom styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Add any additional custom styles here */
+.main-content {
+    min-height: calc(100vh - 160px); /* Accounting for header and footer */
+}
+
+/* Custom animations */
+.hover-grow {
+    transition: transform 0.2s ease;
+}
+
+.hover-grow:hover {
+    transform: scale(1.02);
+}
